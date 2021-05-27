@@ -1,10 +1,103 @@
 :root {
   --Cyan: hsl(179, 62%, 43%);
-  --Bright-Yellow: hsl(71, 73%, 54%);
-  --Light-Gray: hsl(204, 43%, 93%);
-  --Grayish-Blue: hsl(218, 22%, 67%);
+  --Cyan-second: #4abebd;
+  --Yellow: hsl(71, 73%, 54%);
+  --Gray: hsl(204, 43%, 93%);
+  --Blue: hsl(218, 22%, 67%);
+  --Bg-color: #ffffff;
+  --bg-color-2: #e6eff6;
+  --text-color: #e9ffff;
+  --text-color-gray: #afb3c0;
 }
 * {
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: var(--Bg-color-2);
+  font-family: "Karla", sans-serif;
+  color: var(--text-color);
+  padding: 64px 32px;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: var(--Bg-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+.header__title {
+  color: var(--Cyan);
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.header__subtitle {
+  color: var(--Yellow);
+  /* font-weight: 400; */
+  margin-bottom: 25px;
+}
+.header__description {
+  color: var(--text-color-gray);
+  line-height: 25px;
+}
+
+.container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.container__suscription {
+  background-color: var(--Cyan);
+  padding: 20px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+.container__suscription--title {
+  color: #ffffff;
+  /* font-weight: 400; */
+  margin-bottom: 15px;
+}
+.container__suscription--price {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.container__suscription--price span {
+  color: #66cece;
+  font-size: 16px;
+}
+.container__suscription--decription {
+  color: var(--Gray);
+  margin-bottom: 25px;
+}
+.container__suscription--button {
+  display: block;
+  background-color: var(--Yellow);
+  text-decoration: none;
+  width: 100%;
+  padding: 16px 0;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.container__about {
+  background-color: var(--Cyan-second);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+  padding: 20px;
+}
+.container__about--title {
+  color: var(--Gray);
+  margin-bottom: 15px;
+}
+.container__list {
+  color: #8ee3e7;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
 }
