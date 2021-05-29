@@ -21,7 +21,6 @@ body {
   place-items: center;
   min-height: 100vh;
 }
-
 .header {
   background-color: var(--Bg-color);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -41,7 +40,6 @@ body {
   color: var(--text-color-gray);
   line-height: 25px;
 }
-
 .container {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
@@ -85,7 +83,6 @@ body {
   -o-border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-
 .container__about {
   background-color: var(--Cyan-second);
   /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
