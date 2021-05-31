@@ -17,12 +17,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  color: red;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .section {
   display: grid;
 }
